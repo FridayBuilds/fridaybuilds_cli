@@ -1,14 +1,14 @@
-# SudokkuCli
+# FridayBuildsCli
 
-A CLI program for logging in to Sudokku git server.
+A CLI program for fridaybuilds.com
 
 ## Installation
 
-    $ gem install sudokku_cli
+    $ gem install fridaybuilds_cli
 
 ## Usage
 
-Use `sudokku login` to log in to the Sudokku git server. This will try to connect to the git server using credentials saved
+Use `friday login` to log in to the FridayBuilds git server. This will try to connect to the git server using credentials saved
 in your .netrc file. If the credentials are not found, or are expired, you will be given a url to visit where you can log in.
 After successfully logging in, the program will save the newly generated credentials to your .netrc file.
 
@@ -22,7 +22,7 @@ After successfully logging in, the program will save the newly generated credent
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Tashows/sudokku_cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/Tashows/sudokku_cli/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/FridayBuilds/fridaybuilds_cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of wconduct](https://github.com/FridayBuilds/fridaybuilds_cli/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -30,4 +30,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SudokkuCli project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/Tashows/sudokku_cli/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the SudokkuCli project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/FridayBuilds/fridaybuilds_cli/blob/main/CODE_OF_CONDUCT.md).
