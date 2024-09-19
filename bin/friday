@@ -2,4 +2,4 @@
 
 require_relative '../lib/fridaybuilds_cli'
 
-Fridaybuilds.start(ARGV)
+FridaybuildsCli.start(ARGV)
