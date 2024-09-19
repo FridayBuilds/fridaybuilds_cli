@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in sudokku_cli.gemspec
+# Specify your gem's dependencies in fridaybuilds_cli.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

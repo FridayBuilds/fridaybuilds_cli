@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-class TestSudokkuCli < Minitest::Test
+class TestFridaybuildsCli < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::SudokkuCli::VERSION
+    refute_nil ::FridaybuildsCli::VERSION
   end
 
   def test_it_does_something_useful

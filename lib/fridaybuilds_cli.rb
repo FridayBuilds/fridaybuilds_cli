@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "sudokku_cli/version"
+require_relative "fridaybuilds_cli/version"
 require 'netrc'
 require 'json'
 require 'open-uri'
@@ -8,10 +8,10 @@ require 'net/http'
 require 'dotenv/load'
 require 'launchy'
 
-module SudokkuCli
+module FridaybuildsCli
   class Error < StandardError; end
 
-  ENDPOINT = ENV["SUDOKKU_GIT_ENDPOINT"] || 'https://git.sudokku.com'
+  ENDPOINT = ENV["GIT_ENDPOINT"] || 'https://git.fridaybuilds.com'
 
   def self.send_request(path, params = {})
     uri = URI.join(ENDPOINT, path)
@@ -59,7 +59,7 @@ module SudokkuCli
     when "login"
       login
     else
-      puts "Invalid command. Please use `sudokku login`."
+      puts "Invalid command. Please use `friday login`."
     end
   end
 end

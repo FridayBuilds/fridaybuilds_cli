@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/sudokku_cli'
+require_relative '../lib/fridaybuilds_cli'
 
-SudokkuCli.start(ARGV)
+Fridaybuilds.start(ARGV)
