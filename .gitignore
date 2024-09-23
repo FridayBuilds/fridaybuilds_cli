@@ -10,3 +10,4 @@
 .secrets.yml
 *.gem
 .env
+README.dev.md
